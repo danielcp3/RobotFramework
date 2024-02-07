@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.9.6 on darwin)" generated="2024-02-01T22:22:49.075004" rpa="false" schemaversion="5">
+<suite id="s1" name="TestCase2" source="/Users/veevart/Desktop/GitHub/RobotFramework/TestProject/Tests/TestCase2.robot">
+<test id="s1-t1" name="TEST2" line="6">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-02-01T22:22:49.091725" level="INFO">This is my second test case</msg>
+<arg>This is my second test case</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-02-01T22:22:49.091645" elapsed="0.000114"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-02-01T22:22:49.091917" level="INFO">My test variable from resources</msg>
+<arg>${resource-variable}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-02-01T22:22:49.091843" elapsed="0.000096"/>
+</kw>
+<status status="PASS" start="2024-02-01T22:22:49.091284" elapsed="0.000727"/>
+</test>
+<status status="PASS" start="2024-02-01T22:22:49.075849" elapsed="0.016408"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="TestCase2">TestCase2</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
