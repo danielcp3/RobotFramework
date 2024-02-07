@@ -11,4 +11,8 @@
 # Built Visual Studio Code Extensions
 *.vsix
 
+# Files to Ignore in the Project
 *.tmp
+log.html
+output.xml
+report.html
